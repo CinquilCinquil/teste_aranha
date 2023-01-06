@@ -6,8 +6,8 @@ public class movement : MonoBehaviour
 {
 
     public Rigidbody body;
-    private float spd = 2.0f;
-    private bool[] keys = {false,false,false,false, false,false, false,false};
+    [SerializeField] private float spd = 2.0f;
+    [SerializeField] private bool[] keys = {false, false, false, false, false, false, false, false};
 
     // Start is called before the first frame update
     void Start()
